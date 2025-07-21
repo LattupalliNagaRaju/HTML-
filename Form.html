@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+</head>
+<body>
+    <img src="./Image folder/apcrts-screenshot.png" alt=""  width="100%">
+    <form action="./Application submit.html" method="get" enctype="text/plain" autocomplete="off">
+        <fieldset>
+            <legend> <b>Application</b></legend>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <label for="Name">Name:</label>
+                        <input type="text" name="name" id="Name" required>
+                    </td>
+                    <td>
+                        <label for="Father">Father's/Guatdians Name:</label>
+                        <input type="text" name="Name" id="Father" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Date">Date:</label>
+                        <input type="date" name="name" id="Date">
+                    </td>
+                    <td>
+                        <label for="Male">Gender:</label>
+                        <input type="radio" name="Gender" id="Male" value="male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" name="Gender" id="Female" value="female">
+                        <lable for="Female">Female</lable>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for=" age">Age As on:</label>
+                        <input type="number" name="age" id="age" min="0" max="150">
+                    </td>
+                    <td>
+                        <label for="Adhar">Adhar No:</label>
+                        <input type="text" name="name" id="Adhar" maxlength="12">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Whatsapp"> Whatsapp No:</label>
+                        <input type="text" name="name" id="Whatsapp" maxlength="10"  required>
+                    </td>
+                    <td>
+                        <label for="email"> E-mail:</label>
+                        <input type="email" name="name" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Pic"> Photo:</label>
+                        <input type="file" name="name" id="Pic" required >
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </fieldset> 
+        <br>
+        <fieldset>
+            <legend> <b>Residential Address Details</b></legend>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <label for="Address"> Applicant Address:</label>
+                        <textarea name="text" id="Address" required></textarea>
+                    </td>
+                    <td>
+                        <label for="District"> District:</label>
+                        <select name="" id="District"  required>
+                        <option value="Select District">----Select District----</option>
+                        <option value="Palnadu">palnadu</option>
+                        <option value="Guntur">Guntur</option>
+                        <option value="Krishna">Krishna</option>
+                        <option value="Ongle">Ongle</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Mandal"> Mandal:</label>
+                        <select name="" id="Mandal" required>
+                            <option value="Select Mandal">----Select Mandal----</option>
+                        <option value="Gurazala">Gurazala</option>
+                        <option value="sattenapalli">Sattenapalli</option>
+                        <option value="Karempudi">Karempudi</option>
+                        <option value="Macherla">Macherla</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="village"> Village:</label>
+                        <select name="" id="village" required>
+                        <option value="Select  Village">----Select Village----</option>
+                        <option value="Gottimukkala">Gottimukkala</option>
+                        <option value="Panidham">panidham</option>
+                        <option value="Oppicharla">Oppicharla</option>
+                        <option value="Mandadhi">Mandadhi</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Pincode"> Pincode:</label>
+                        <input type="text" name="" id="Pincode" maxlength="6" required>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br> 
+        <fieldset>
+            <legend> <b>Pass Type Details:</b></legend>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <label for="city"> City:</label>
+                        <select name="" id="city" required>
+                        <option value="Select city">----Select city----</option>
+                        <option value="Palnadu">palnadu</option>
+                        <option value="Guntur">Guntur</option>
+                        <option value="Krishna">Krishna</option>
+                        <option value="Ongle">Ongle</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city"> Pass Type:</label>
+                        <select name="" id="city" required>
+                        <option value="Select Type">----Select Type----</option>
+                        <option value="General">General</option>
+                        <option value="Delux">Delux </option>
+                        <option value="Metro">Metro</option>
+                        </select>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> <b>Mode of Payment & Pass Collection</b> </legend>
+            <table>
+                <tr >
+                    <td>
+                        <label for="Mode"> Payment Mode:</label>
+                        <select name="" id="Mode" required>
+                        <option value="Select Mode">----Select Mode----</option>
+                        <option value="Online">Online</option>
+                        <option value="Hand Cash">Hand Cash </option>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Delivery Mode"> Pass Delivery Mode:</label>
+                        <select name="" id="Delivery Mode" required>
+                        <option value="Select Mode">----Select Mode----</option>
+                        <option value="Home Delivery">Home Delivery</option>
+                        <option value="Counter pickup">Counter pickup </option>
+                        <option value="Digital Mode">Digital Mode</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <label for="pass collection">Mode of Payment & Pass Collection:</label>
+                        <select name="" id="pass collection" required>
+                        <option value="Select Mode">----Select Mode----</option>
+                        <option value="PATNAM BAZR">PATNAM BAZR</option>
+                        <option value="APCRTC">APCRTC</option>
+                        <option value="NALLA CHERUVU">NALLA CHERUVU</option>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+       <center><img src="./Image folder/capcha-screenshot.png" alt="" width="150"></center>
+        <center><input type="text"></center>
+        <center><input type="submit" width="50"></center>
+</body>
+</html>

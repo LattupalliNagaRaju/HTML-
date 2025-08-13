@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    
+</head>
+<body>
+    <header>
+    <h1><center><img src="./Image folder/star.jpeg" alt="image" width="30">NagaRaju Web Portfolio</center></h1>
+        <center><h4><i>Showcasing HTML Skills using Tables</i></h4></center>
+    <center> 
+        <nav>
+        <a href="#About">About Me</a>
+        &nbsp;&nbsp;<span>|</span>&nbsp;&nbsp;
+        <a href="#Skills">Skills</a>
+        &nbsp;&nbsp;<span>|</span>&nbsp;&nbsp;
+        <a href="#Projects"> Projects</a>
+        &nbsp;&nbsp;<span>|</span>&nbsp;&nbsp;
+        <a href="#Contact me"> Contact Me</a>
+        </nav>
+    </center>
+        </header>
+    
+    <hr>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <td colspan="2"><h2 id="About"><img src="./Image folder/About me.jpeg" alt="image" title="about me" width="30">About Me</h2>
+            <p>
+                I am Nagaraju, an enthusiastic and adaptable fresher with a strong foundation in computer science concepts and a passion for continuous learning. I have knowledge of programming languages such as Python, Java, and C++, along with an understanding of data structures, algorithms, and database management. I enjoy exploring new technologies, solving problems, and contributing to collaborative projects. My goal is to grow as a skilled IT professional while delivering value through innovative solutions and dedication to quality work.
+            </p>
+           <img align = "right" src="./Image folder/Pass Photo.jpg" alt="" width="100">
+
+            </td>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td> <h2 id="Skills"><img src="./Image folder/Brain.jpeg" alt="" width="30">skills</h2>
+                <ul>
+                    <li>HtML/CSS</li>
+                    <li>java Script </li>
+                    <li>Responsive Design </li>
+                    <li> Git & GitHUb</li>
+                </ul>
+                <p> <h3><img src="./Image folder/notes icon.png" alt="" width="20">Skill Levels</h3></p>
+                <table border="1" cellspacing="1" cellpadding="10">
+                    <tr align="center">
+                        <th> skill</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr align="center">
+                        <td>HTML</td>
+                        <td> Expert</td>
+                    </tr>
+                    <tr align="center">
+                        <td>css</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr align="center">
+                        <td>Java Script</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </table>
+            </td>
+            <td> <h2 id="Projects"><img src="./Image folder/files.jpg" alt="" width="50">Projects</h2>
+                <ol>
+                    <li>Portofolio WebSite- my personal portofolio built using pure HTML , and Css</li>
+                    <li>Todo App- A task management tool with vanilla  java script </li>
+                    <li>Weather App- A real time weather dashboard using APIs</li>
+                </ol>
+                <p> <h3><img src="./Image folder/gallery.png" alt="" width="20">Screen Shot</h3></p>
+                <img src="./Image folder/html-logo.png"alt="" width="50">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="./Image folder/css-logo.png"alt="" width="60">
+                <p><h3><img src="./Image folder/gallery.png" alt="" width="20"> Project Preview</h3></p>
+                    <img src="./Image folder/weather.png" alt="" width="100">
+
+            </td>
+        </tr>
+        <tr> 
+            <td colspan="2"> <h2 id="Contact me"> <img src="./Image folder/contact me.jpeg" alt="" width="30">Contact Me</h2>
+                <fieldset>
+                    <Legend><b>Contact Form </b></Legend>
+                    <table>
+                        <form action="./Application submit.html">
+                        <tr>
+                            <td>
+                                <label for="name"><b>Full Name:</b></label>
+                            </td>
+                            <td>
+                                <input type="text" name="name" id="name" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email"><b>Email:</b></label>
+                            </td>
+                            <td> 
+                                <input type="text" name="email" id="email" pattern="[a-z][/d]]._]+ @ (gmail | yahoo| outlook)+/. (com| ac| in| org)" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="gender"><b>Gender:</b></label>
+                            </td>
+                            <td>
+                                <input type="radio" name="male" id="male" value="male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="male" id="male" value="female">
+                                <label for="female">Female</label>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="service Intrested"> <b>Service Intrested:</b></label>
+                            </td>
+                            <td> 
+                                <input type="checkbox" name="web Desing" id="web Design" value="web Design">
+                                <label for="web Desing"> Web Desing</label>
+                                <input type="checkbox" name="web seo" id="Seo" value="seo">
+                                <label for="seo"> SEO</label>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="country"><b>Country:</b></label>
+                            </td>
+                            <td>
+                                <select name="" id="" >
+                                    <option value="select" disabled selected>--select--</option>
+                                    <option value="India">India</option>
+                                    <option value="Usa">Usa</option>
+                                    <option value="Russia">Russia</option>
+                                    <option value="China">China </option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="message"><b>Message:  </b></label>
+                            </td>
+                            <td>
+                                <textarea name="" id="message" rows="10" cols="15">
+                                Type Message here....    
+                                </textarea>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button>send</button>
+                            <button>clear</button>
+                        </td>
+                    </tr>
+                    </fieldset>
+                </form>
+            </table>
+
+            </td>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td colspan="2">
+             <footer>
+                <center>
+                    <p> <img src="./Image folder/date icon.png" alt="" width="15">Last Update August 13, 2025</p>
+                    <p> <i>created by NagaRaju</i></p>
+                    <p>Email:  <i><a href="lattupallinagaraju09@gmail.com"> lattupallinagaraju09</a></i></p>
+                    <p>Website:  <i><a href="website.com"> website.com</a></i></p>
+                    <p>@ 2025 NagaRaj . All the rights reserved.</p>
+                </center>
+            </footer>
+            </td>
+            <!-- <td></td> -->
+        </tr>
+    </table>
+
+
+    
+</body>
+</html>

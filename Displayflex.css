@@ -1,0 +1,50 @@
+.container1{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 5px;
+    margin: 10px;
+}
+
+.bi{
+    
+    color: white;
+    font-size: xx-large;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    padding: 5px;
+    margin: 10px;
+
+}
+p{
+    color: white;
+    font-size: x-small;
+}
+
+.container3{
+    display: flex;
+    background-color:purple;
+    padding: 5px;
+    margin: 10px;
+}
+.bi1{
+    margin-left: 1050px;
+    color: white;
+    font-size:x-large;
+}
+.bi2{
+    margin: 20px;
+    color: white;
+    font-size:x-large;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    padding: 5px;
+    margin: 10px;
+}

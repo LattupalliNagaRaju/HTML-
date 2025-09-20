@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+}
+.navbar-container{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    /* position: fixed; */
+}
+.navbar-container>.nav-tabs{
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+.nav-tabs:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+}
+html,body{
+    height: 100%;
+}
+.cafebg-container{
+    width: 100%;
+    height: 75%;
+    background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.cafebg-container>.text-container>p{
+    text-align: center;
+    align-items: center;
+    font-size: 6rem;
+    font-style: oblique;
+    color: white;
+}
+.text-container1{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}    
+.text-container2{
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    color: white;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.main-container>.middle-container{
+    width: 50%;
+    /* border: 2px solid; */
+}
+.main-container>.middle-container>.about-text{
+    display: flex;
+    justify-content: center;
+    
+}
+.about-text>p{
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.para-container1>p{
+    display: flex;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin-right: 0px;
+    
+}
+.para-container2>p{
+    display: flex;
+    text-align: justify;
+    line-height: 30px;
+     margin: 40px; 
+     margin-left: 0px;
+     margin-right: 0px;
+     font-size: 1.2rem;
+}
+.para-container3{
+    width: 100%;
+    background-color: aliceblue;
+    border-left: 5px solid;
+    border-color: lightgray;
+}
+.para-container3>p{
+   display: flex;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 40px;
+    padding: 10px;
+}
+.img-container>img{
+   width: 100%;
+   display: flex;
+   padding-top: 10px ;
+   padding-bottom: 20px;
+   
+}
+.para-container4>p{
+    display: flex;
+    line-height: 30px;
+    
+}
+.main-container>.middle-container>.menu-text{
+    display: flex;
+    justify-content: center;
+    
+}
+.menu-text>p{
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.pseudo-container{
+    /* border: 2px solid;   */
+   border-color: black;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   height: 600px;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.menu-container>div{
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s ease;
+    
+}
+.menu-container>div:hover{
+    background-color: rgba(128, 128, 128, 0.673);
+    color: white;
+    cursor: pointer;
+    
+}
+.menu-container>div>input{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.eat-container{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 15px;
+    margin: 10px;
+    display: none;
+    
+}
+.eat-container>h5+p{
+    line-height: 50px;
+}
+.drink-container{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 15px;
+    margin: 10px;
+    display: none; 
+    
+}
+.drink-container>h5+p{
+    line-height: 50px;
+}
+#eat,#drink{
+    display: none;
+}
+#eat:checked~.eat-container{
+    display: inline-block;
+}
+#drink:checked~.drink-container{
+    display: inline-block;
+}
+.img-container1{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+
+}
+.img-container1>img{
+    width: 100%;
+}
+.main-container>.middle-container>.final-text{
+    display: flex;
+    justify-content: center;
+    
+}
+.final-text>p{
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.para-container5>p{
+    margin: 10px;
+}
+.para-container6>p{
+    margin-top: 20px;
+    width: 100%;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.para-container6>p>span{
+    background-color: black;
+    color: white;
+}
+.form-container{
+    width: 100%;
+    margin: 10px 0px;
+}
+.form-container>input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+.message{
+    width: 150px;
+    padding: 10px;
+}
+.message>button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+}
+.message>button:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: black;
+}
+.foot-container{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    background-color: lightgray;
+
+}
